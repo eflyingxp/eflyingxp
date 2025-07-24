@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- 背景圆形 -->
+  <circle cx="256" cy="256" r="256" fill="#4a86e8"/>
+  
+  <!-- 视频图标 -->
+  <rect x="128" y="160" width="256" height="192" rx="16" ry="16" fill="white" opacity="0.9"/>
+  
+  <!-- 播放按钮 -->
+  <polygon points="208,200 304,256 208,312" fill="#4a86e8"/>
+  
+  <!-- 时钟图标 -->
+  <circle cx="352" cy="352" r="80" fill="#f1c232" stroke="white" stroke-width="8"/>
+  
+  <!-- 时钟指针 -->
+  <line x1="352" y1="352" x2="352" y2="300" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <line x1="352" y1="352" x2="380" y2="352" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- 时钟中心点 -->
+  <circle cx="352" cy="352" r="8" fill="white"/>
+</svg>
