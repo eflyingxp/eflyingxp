@@ -20,3 +20,6 @@ sitemap.xml.gz
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# 图像分析项目目录 - 仅保留在本地
+picdig/
