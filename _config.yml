@@ -13,6 +13,10 @@ timezone: Asia/Shanghai
 # Theme
 theme: jekyll-theme-minimal
 
+# URL settings for production
+url: "https://blogwego.com"
+baseurl: ""
+
 # Plugins
 plugins:
   - jekyll-feed
