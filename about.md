@@ -25,7 +25,7 @@ permalink: /about/
 ## 联系我
 
 - GitHub: [@eflyingxp](https://github.com/eflyingxp)
-- Email: your-email@example.com
+- Email: eflyingxp@gmail.com
 
 ## 关于这个博客
 

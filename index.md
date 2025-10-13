@@ -11,9 +11,9 @@ title: 首页
 
 ## 分类
 
-- [技术笔记](/blog/tech/)
-- [生活随笔](/blog/life/)  
-- [旅游攻略](/blog/travel/)
+- [技术笔记](/tech/)
+- [生活随笔](/life/)  
+- [旅游攻略](/travel/)
 
 ## 关于我
 
