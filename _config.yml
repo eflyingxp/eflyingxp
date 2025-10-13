@@ -1,1 +1,46 @@
+# Site settings
+title: "嘚啵嘚的博客"
+description: "记录生活、技术和思考的个人博客"
+author: "eflyingxp"
+email: "your-email@example.com"
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Asia/Shanghai
+
+# Theme
 theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "关于"
+    url: "/about/"
+
+# Social links
+social:
+  github: "eflyingxp"
+  email: "eflyingxp@gmail.com"
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - VideoDurationAnalyzer
+  - picdig
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - README.md
