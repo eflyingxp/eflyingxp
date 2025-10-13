@@ -26,3 +26,11 @@ picdig/
 
 # 临时文件夹 - 仅保留在本地
 Temp/
+
+# Jekyll build and cache
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
