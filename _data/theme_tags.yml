@@ -1,0 +1,16 @@
+theme_tags:
+  - slug: tech-efficiency
+    name: 技术与效率
+    synonyms: [mac, github, markdown, tips, productivity, documentation]
+  - slug: ai-knowledge
+    name: AI与知识管理
+    synonyms: [logseq, trae, AI辅助, 年度回顾报告]
+  - slug: game
+    name: 游戏
+    synonyms: [wow, game, log]
+  - slug: media
+    name: 影视与推荐
+    synonyms: [netflix, 电影, 电视剧, 纪录片, 推荐]
+  - slug: life-notes
+    name: 生活与随想
+    synonyms: [随想, 生活, 心情, 天气, 博客搭建]

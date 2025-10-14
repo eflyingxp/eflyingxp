@@ -1,0 +1,20 @@
+{% assign themes = site.data.theme_tags.theme_tags %}
+{% if page.tags %}
+<p><small>主题标签：
+{% assign matched_slugs = "" | split: "|" %}
+{% for theme in themes %}
+  {% assign hit = false %}
+  {% for syn in theme.synonyms %}
+    {% if page.tags contains syn %}
+      {% assign hit = true %}
+    {% endif %}
+  {% endfor %}
+  {% if hit %}
+    {% unless matched_slugs contains theme.slug %}
+      <a href="/tags/{{ theme.slug }}/">{{ theme.name }}</a>
+      {% assign matched_slugs = matched_slugs | push: theme.slug %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+</small></p>
+{% endif %}
