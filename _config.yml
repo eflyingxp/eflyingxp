@@ -50,4 +50,5 @@ exclude:
   - README.md
 
 # Google Analytics 代码
-google_analytics: G-MW4SGNVM0F
+# 更新到新的测量 ID（与模板保持一致）
+google_analytics: G-P5YRDEFHPX
