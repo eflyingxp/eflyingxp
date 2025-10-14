@@ -2,7 +2,7 @@
 title: "嘚啵嘚的博客"
 description: "记录生活、技术和思考的个人博客"
 author: "eflyingxp"
-email: "your-email@example.com"
+email: "eflyingxp@gmail.com"
 
 # Jekyll settings
 markdown: kramdown
@@ -48,3 +48,6 @@ exclude:
   - gemfiles/
   - node_modules/
   - README.md
+
+# Google Analytics 代码
+google_analytics: G-MW4SGNVM0F
