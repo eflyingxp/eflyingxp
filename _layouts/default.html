@@ -35,8 +35,39 @@
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <button id="ga-test-btn" style="margin-top:8px;padding:6px 10px;font-size:14px;cursor:pointer;">
+          发送 GA 测试事件
+        </button>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script>
+      (function(){
+        function sendTestEvent(){
+          if (typeof gtag === 'function') {
+            try {
+              gtag('event', 'debug_test_event', {
+                event_category: 'debug',
+                event_label: 'layout_button',
+                value: 1,
+                timestamp: Date.now(),
+                page_location: window.location.href
+              });
+              alert('已发送 GA 测试事件：debug_test_event');
+            } catch (e) {
+              console.error('发送事件失败', e);
+              alert('发送事件失败：' + e.message);
+            }
+          } else {
+            console.warn('gtag 不可用：可能未在生产环境或被拦截');
+            alert('未检测到 gtag：本地开发不注入或被拦截');
+          }
+        }
+        document.addEventListener('DOMContentLoaded', function(){
+          var btn = document.getElementById('ga-test-btn');
+          if (btn) btn.addEventListener('click', sendTestEvent);
+        });
+      })();
+    </script>
   </body>
 </html>
