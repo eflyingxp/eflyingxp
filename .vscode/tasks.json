@@ -7,7 +7,7 @@
       "command": "bash",
       "args": [
         "-lc",
-        "./publish.sh '${input:commitMessage}'"
+        "bash ./publish.sh '${input:commitMessage}'"
       ],
       "group": {
         "kind": "build",
