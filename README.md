@@ -19,6 +19,17 @@
 
 提示：可为 VS Code 任务绑定快捷键（`⌘K ⌘S` 打开键盘快捷键 → 绑定 `Tasks: Run Task` 并选择该任务），做到一键发布。
 
+## 快捷新建文章
+
+- VS Code 任务：`⇧⌘P` → `Run Task` → 选择“新建博客文章”，按提示输入：
+  - 标题：用于生成文件名（自动 slugify）和前言 `title`
+  - 日期（可选）：`YYYY-MM-DD`，留空则为今天
+  - 分类（可选）：会放入 front matter 的 `categories`
+- 运行后，会在 `_posts/` 下创建新 Markdown 文件，并在终端输出 `Created: <路径>`，可立即编辑并使用下方的本地预览查看效果。
+- 命令行也可直接使用：
+  - `./new-post.sh "文章标题"`
+  - 或指定日期与分类：`./new-post.sh "文章标题" 2025-10-15 tech`
+
 ## 本地预览
 
 - 运行：`bundle exec jekyll serve --livereload`

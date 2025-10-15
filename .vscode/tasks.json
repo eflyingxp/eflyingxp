@@ -22,6 +22,27 @@
         "reevaluateOnRerun": true
       },
       "problemMatcher": []
+    },
+    {
+      "label": "新建博客文章",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./new-post.sh '${input:postTitle}' '${input:postDate}' '${input:postCategory}'"
+      ],
+      "group": {
+        "kind": "build"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "runOptions": {
+        "reevaluateOnRerun": true
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [
@@ -30,6 +51,24 @@
       "type": "promptString",
       "description": "请输入提交说明（如：sync: 更新博客）",
       "default": "sync: 更新博客"
+    },
+    {
+      "id": "postTitle",
+      "type": "promptString",
+      "description": "请输入文章标题",
+      "default": "新文章标题"
+    },
+    {
+      "id": "postDate",
+      "type": "promptString",
+      "description": "可选：文章日期 (YYYY-MM-DD)，留空为今天",
+      "default": ""
+    },
+    {
+      "id": "postCategory",
+      "type": "promptString",
+      "description": "可选：分类（如 tech/ life），留空不设置",
+      "default": ""
     }
   ]
 }
