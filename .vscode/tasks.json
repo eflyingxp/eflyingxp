@@ -4,13 +4,10 @@
     {
       "label": "发布博客到 GitHub Pages",
       "type": "shell",
-      "command": "powershell",
+      "command": "bash",
       "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-Command",
-        "& { $msg='${input:commitMessage}'; $changed = git status --porcelain; if ($changed) { git add -A; git commit -m $msg }; git push origin master; if ($LASTEXITCODE -ne 0) { Write-Host '推送失败：无法连接 GitHub（检查网络/代理）'; exit $LASTEXITCODE } }"
+        "-lc",
+        "./publish.sh '${input:commitMessage}'"
       ],
       "group": {
         "kind": "build",
