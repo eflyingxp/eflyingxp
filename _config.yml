@@ -40,6 +40,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - VideoDurationAnalyzer
+  - 学习Python
+  - Temp
   - picdig
   - vendor/
   - .bundle/
