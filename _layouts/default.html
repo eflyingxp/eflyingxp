@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% if site.google_analytics %}
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}" onerror="console.log('Failed to load gtag.js')"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ site.google_analytics }}');
+      // 添加错误处理
+      try {
+        gtag('config', '{{ site.google_analytics }}', {
+          'transport_type': 'beacon',
+          'anonymize_ip': true
+        });
+      } catch (error) {
+        console.log('Google Analytics configuration error:', error);
+      }
     </script>
     {% endif %}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
