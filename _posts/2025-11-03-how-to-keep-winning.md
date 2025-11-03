@@ -22,6 +22,8 @@ I've always been fiercely competitive. I enjoy everything about it—from traini
 
 我一直是一个极具竞争力的人。我喜欢竞争的一切——从训练提升自己，到组建和发展团队，再到压力和紧张氛围。虽然我喜欢胜利，但失败比什么都让人害怕，感觉非常糟糕。这促使我必须不断提升避免失败的能力。以下是我一路上总结出的六个预防失败、保持胜利的策略和原则。
 
+![Replit 创始人兼首席执行官 Amjad Masad](https://img.blogwego.com/2025/11/fe2c9d7af2cb805d9e6913390604da7d.jpg)
+
 ## 1. Don't Die 不要“阵亡”
 
 Almost everything else you can come back from except death. I'm using "death" both literally and figuratively to mean the point of no return. First, know the death boundaries, and obsess over the extreme downside scenarios and prioritize survival. Visualize all the ways you could die—all the time. In that way I'm very careful, almost paranoid. I ran Replit for eight years with little commercial success, but at no point did we ever get to the red zone when it came to runway—we always had plenty of cash on hand. You'd be surprised by the number of brilliant founders that reach out to me for advice when they're three months from death.
