@@ -7,13 +7,22 @@ tags: [创业, 竞争力, 长期主义, 技术深度, 生存策略, 译文]
 ---
 # How to Keep Winning 如何保持胜利
 
+> **导读：**
+> 这篇文章是 Replit 创始人 Amjad Masad 的“反脆弱”创业生存指南。作者用 6 条“如何一直赢”的原则，把“别死、别退、别分心”这些朴素道理拆成可落地的战术：  
+> 1. 把“死亡线”画在现金流、法律、健康三条红线之前，先求不死再求爆发；  
+> 2. 用“内部记分牌”对抗外部噪音，把“再站起来一次”当成唯一 KPI；  
+> 3. 进入“锁定模式”——像拼字比赛前默背生词、赛车前记别人失误那样，把竞争变成单人副本；  
+> 4. 主动挑难的路，自研分布式文件系统而非买现成 API，把技术深度变成复利资产；  
+> 5. 在对手靠灰色捷径超车时，坚持“按规矩出牌”，让隐私、安全、品牌成为越滚越大的复利雪球；  
+> 6. 把路线图、代码、经验全部开源，用“把东西放回人类经验池”换来人才与机会的复利。  
+>  
+> 全文穿插 Replit 八年起落、职业电竞夺冠、赛车逆袭等故事，把“长期主义”翻译成可感知的细节：现金流表格、拼字比赛现场、分布式文件系统的 Git commit。读完你会得到一张“反脆弱清单”：下次在融资寒冬、赛道切换、团队动荡时，先检查六条原则，再决定是 pivot 还是 persist。
+
 I've always been fiercely competitive. I enjoy everything about it—from training to get better, to building and developing teams, to the stress, pressure, and intensity. And while I love winning, there are very few things I dread more than losing. It just feels awful. This meant that I had to get good at constantly **not** losing. Here are six tactics and principles I learned along the way to protect against failure and keep winning.
 
 我一直是一个极具竞争力的人。我喜欢竞争的一切——从训练提升自己，到组建和发展团队，再到压力和紧张氛围。虽然我喜欢胜利，但失败比什么都让人害怕，感觉非常糟糕。这促使我必须不断提升避免失败的能力。以下是我一路上总结出的六个预防失败、保持胜利的策略和原则。
 
-## 1. Don't Die
-
-1. 不要“阵亡”
+## 1. Don't Die 不要“阵亡”
 
 Almost everything else you can come back from except death. I'm using "death" both literally and figuratively to mean the point of no return. First, know the death boundaries, and obsess over the extreme downside scenarios and prioritize survival. Visualize all the ways you could die—all the time. In that way I'm very careful, almost paranoid. I ran Replit for eight years with little commercial success, but at no point did we ever get to the red zone when it came to runway—we always had plenty of cash on hand. You'd be surprised by the number of brilliant founders that reach out to me for advice when they're three months from death.
 
@@ -27,9 +36,7 @@ At Replit, there were many times when the business sort of worked and any ration
 
 在Replit，有很多阶段业务可以继续扩展，理性的创始人都会选择走规模化，比如我们在教育和招聘领域发展不错，但这些市场都没让我激动——无法建立大公司或实现愿景。因此我们果断转型。最近一次就是从代码编辑器转向自然语言创作界面（vibe coding）。有些员工和客户因此不满而离开（部分后来又回来了），但我知道自己必须跟随互联网以来最大的技术变革。当你成功时，人们不仅会原谅你，还会主动加入你。
 
-## 2. Never Quit
-
-2. 永不放弃
+## 2. Never Quit 永不放弃
 
 Everything takes time. Some startups explode from day one and some prodigies play piano at three, but those are rare—and often fleeting. Most sharp rises end in sharper declines. If you've set your mind to something, then why ever quit? If you're not dead, then you're still in the game.
 
@@ -51,9 +58,7 @@ Some of the best businesses started off slow and just compounded all the way to 
 
 一些最优秀的企业都是缓慢起步、不断积累，最终一路高涨。亚马逊增长曲线是我最喜欢的例子，连年稳定增长，还在继续。这样的企业难以阻挡，这样的创始人不可能被击败。所以也许外部记分板还没赢，但你始终有内部记分板可以衡量自己和团队。耐心点。
 
-## 3. Lock In
-
-3. 专注投入
+## 3. Lock In 专注投入
 
 I remember doing a spelling bee when I was maybe in third grade, standing in line waiting to get called on to spell the next word. I looked around me and all the other kids were talking and joking around. I thought that was strange. How could you ever win if you're not in the mindset of winning. If you're not locked in?
 
@@ -67,9 +72,7 @@ On a day I have to perform, I'm impossible to be around. I'm in the winning mind
 
 每逢需要发挥的时候，我会变得让人很难接近。我全心处在取胜心态。如果能观察别人，我会研究每个动作。最近赛车比赛我也是如此，耐心在旁观看别人的失误，从中学习。轮到自己试跑时，我已知道最低限度要做什么才能获胜。风险排除后，一切都是上升空间。
 
-## 4. Do Hard Things
-
-4. 做难的事
+## 4. Do Hard Things 做难的事
 
 Most people do the obvious thing. They don't want to look weird or different—but winning is weird and different. You're definitionally different because you stand apart from everyone else as the ultimate winner.
 
@@ -95,9 +98,7 @@ For example, at Replit we built a distributed file system to solve the problem o
 
 比如Replit我们为了多人协作编程自研了分布式文件系统。简单办法是买外部API，但我们选择更深层次抽象：任意操作都能逆转，可以秒级分叉、轻松存储与备份。后来AI编程代理兴起，我们立即将技术用于并发代理，并意外创造了“时光倒流”功能，能逆转代理的破坏性操作。
 
-## 5. Play by the Rules
-
-5. 按规矩行事
+## 5. Play by the Rules 按规矩行事
 
 You might think that maximizing risk means you can break the law or do unethical or immoral things. But in my opinion, there's something about the universe that really doesn't reward that. Yes, there are exceptions—there are slimebags that make it really big, and evil companies that maintain a winning position—but those are either the exceptions or their time will come. For the most part, if your competitors are lying, deceiving, or taking unethical shortcuts, it'll only help them in the short term. Don't be tempted to do the same. Stay focused.
 
@@ -107,9 +108,7 @@ Playing by the rules is hard. It's doing the hard thing, and that has the side e
 
 遵守规则很难，本身就是做难事，这反而会逼迫你创新解决问题。创新会以奇特的方式积累起来，形成长期护城河。比如苹果非常重视隐私和安全——即使对手微软当时完全不在乎——结果苹果赢得了持久的消费者信任。
 
-## 6. Put Something Back
-
-6. 回馈社会
+## 6. Put Something Back 回馈社会
 
 Steve Jobs talked about "putting something back in the pool of human experience." He said that putting something back was "extremely neat"—I agree!
 
